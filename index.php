@@ -283,21 +283,21 @@
                                              <td><small><?= $data['jenis'] ?></small></td>
                                         </tr>
                                         <tr>
-                                             <th><i class="fa-solid fa-calendar-days"></i> <small>Keberangkatan</small>
-                                             </th>
-                                             <td>:</td>
-                                             <td><small><?= $data['tanggal_keberangkatan'] ?></small></td>
-                                        </tr>
-                                        <tr>
                                              <th><i class="fa-sharp fa-solid fa-plane"></i> <small>Penerbangan</small>
                                              </th>
                                              <td>:</td>
                                              <td><small><?= $data['pesawat'] ?></small></td>
                                         </tr>
                                         <tr>
+                                             <th><i class="fa-solid fa-hotel"></i> <small>Kamar</small>
+                                             </th>
+                                             <td>:</td>
+                                             <td><small><?= $data['isi_kamar'] ?></small></td>
+                                        </tr>
+                                        <tr>
                                              <th><i class="fa-solid fa-tag"></i> <small>Harga</small></th>
                                              <td>:</td>
-                                             <td><small><?= $data['isi_kamar'] ?> | <?= $data['harga'] ?></small></td>
+                                             <td><small>Rp.<?= number_format($data['harga']) ?></small></td>
                                         </tr>
                                         <tr>
                                              <th><i class="fa-sharp fa-solid fa-ticket"></i> <small>Kuota</small></th>
@@ -316,6 +316,194 @@
 
                </div>
           </section><!-- End Portfolio Section -->
+
+          <section id="clients">
+               <div class="container-fluid" data-aos="zoom-in">
+
+                    <header class="section-header">
+                         <h3>Harga Dan Akomodasi Haji Khusus</h3>
+                    </header>
+
+                    <div class="row d-lg-flex justify-content-center" style="text-transform: capitalize;">
+                         <div class="card col-lg-5 col-xl-5 col-md-12 col-sm-12 m-1 shadow p-3 border-bawah"
+                              style="border-left: 3px solid gold">
+                              <div class="text-center mt-2 mb-2">
+                                   <h5>Paket Haji Khusus 26 Hari</h5>
+                                   <hr>
+                              </div>
+                              <div class="mt-2">
+                                   <ol>
+                                        <li>nomor porsi haji USD 4.000</li>
+                                        <li>pelunasan ditentukan kemudian setelah ada pengumuman keberangkatan dari
+                                             kementrian agama (8 bulan sebelum keberangkatan).</li>
+                                   </ol>
+                              </div>
+                         </div>
+                         <div class="card col-lg-5 col-xl-5 col-md-12 col-sm-12 m-1 shadow p-3 border-bawah"
+                              style="border-left: 3px solid gold;">
+                              <div class="text-center mt-2 mb-2">
+                                   <h5>Akomodasi</h5>
+                                   <hr>
+                              </div>
+                              <div class="mt-2">
+                                   <table>
+                                        <tr>
+                                             <th>Makkah</th>
+                                             <td>:</td>
+                                             <td>Al shafwa orchid / hilton hotel (suite)</td>
+                                        </tr>
+                                        <tr>
+                                             <th>Madinah</th>
+                                             <td>:</td>
+                                             <td>Al haram / anwar al madinah movenpick</td>
+                                        </tr>
+                                        <tr>
+                                             <th>Jeddah</th>
+                                             <td>:</td>
+                                             <td>al azhar</td>
+                                        </tr>
+                                        <tr>
+                                             <th>Mina</th>
+                                             <td>:</td>
+                                             <td>tenda al badriyah</td>
+                                        </tr>
+                                        <tr>
+                                             <th>Transit</th>
+                                             <td>:</td>
+                                             <td>apartemen</td>
+                                        </tr>
+                                        <tr>
+                                             <th>Arafah</th>
+                                             <td>:</td>
+                                             <td>tenda al badriyah</td>
+                                        </tr>
+                                   </table>
+                              </div>
+                         </div>
+                         <div class="card col-lg-5 col-xl-5 col-md-12 col-sm-12 m-1 shadow p-5 border-bawah"
+                              style="border-left: 3px solid gold; font-weight:bold;">
+                              <div class="mt-2 text-center">
+                                   <p>
+                                        informasi harga paket haji khusus dan keterangan lebih lanjut hubungi : ibu
+                                        yudha Ext. 104 (0813 9889 1047)
+                                   </p>
+                              </div>
+                         </div>
+                         <div class="card col-lg-5 col-xl-5 col-md-12 col-sm-12 m-1 shadow p-3 border-bawah"
+                              style="border-left: 3px solid gold;">
+                              <div class="text-center mt-2 mb-2">
+                                   <h5>Persyaratan haji khusus</h5>
+                                   <hr>
+                              </div>
+                              <div class="mt-2">
+                                   <ul>
+                                        <li>mengisi fomulir pendaftaran</li>
+                                        <li>FC KTP 3 LBR</li>
+                                        <li>FC kartu keluarga (KK) 3 LBR</li>
+                                        <li>FC buku nikah 3 LBR</li>
+                                        <li>FC passpor (jika sudah memiliki) 3 LBR</li>
+                                        <li>Photo : 3 X 4 40 LBR, 4 X 6 10 LBR</li>
+                                   </ul>
+                              </div>
+                         </div>
+                    </div>
+                    <section id="portfolio" class="section-bg mt-5">
+                         <div class="portfolio-container paket" data-aos="fade-up" data-aos-delay="200">
+                              <div class="row d-lg-flex justify-content-center" style="text-transform: capitalize;">
+                                   <div class="card shadow col-lg-5 col-xl-5 col-md-12 col-sm-12 p-4 m-1"
+                                        style="border-left: 3px solid green;">
+                                        <div class="text-center mt-2 mb-2">
+                                             <h5>harga paket umroh sudah termasuk</h5>
+                                             <hr>
+                                        </div>
+                                        <div class="mt-2">
+                                             <ol>
+                                                  <li>aiport tax handling & perlengkapan.</li>
+                                                  <li>tiket pesawat jakarta-jeddah pulang pergi.</li>
+                                                  <li>visa umroh untuk keberangkatan pertama kali.</li>
+                                                  <li>ruang tunggu keberangkatan di bandara (lounge).</li>
+                                                  <li>akomodasi madinah dan mekkah.</li>
+                                                  <li>ziarah dengan transportasi lokal, bus AC.</li>
+                                                  <li>makan 3x sehari dengan menu indonesia di restoran hotel.</li>
+                                                  <li>muthawwif / guide, air zam-zam 5 liter</li>
+                                             </ol>
+                                        </div>
+                                   </div>
+                                   <div class="card shadow col-lg-5 col-xl-5 col-md-12 col-sm-12 p-4 m-1"
+                                        style="border-left: 3px solid green;">
+                                        <div class="text-center mt-2 mb-2">
+                                             <h5>harga paket umroh belum termasuk</h5>
+                                             <hr>
+                                        </div>
+                                        <div class="mt-2">
+                                             <ol>
+                                                  <li>biaya pembuatan passport dan dokumen perjalanan lainnya.
+                                                       pengeluaran pribadi seperti laundry, telepon, tips, dll.</li>
+                                                  <li>tour / acara diluar program atas permintaan sendiri.</li>
+                                                  <li>kelebihan bagasi (excess bagage).</li>
+                                                  <li>transportasi dari daerah ke jakarta & hotel transit.</li>
+                                             </ol>
+                                        </div>
+                                   </div>
+                                   <div class="card shadow col-lg-5 col-xl-5 col-md-12 col-sm-12 p-4 m-1"
+                                        style="border-left: 3px solid green;">
+                                        <div class="text-center mt-2 mb-2">
+                                             <h5>pembatalan paket umroh</h5>
+                                             <hr>
+                                        </div>
+                                        <div class="mt-2">
+                                             <span>
+                                                  bila terjadi sesuatu yang tidak terduga pada calon jama'ah umroh dan
+                                                  terpaksa membatalkan diri, maka akan dikenakan biaya pembatalan.
+                                             </span>
+                                             <ol>
+                                                  <li><span class="text-danger">25%</span> bila pembatalan 2 bulan
+                                                       sebelum keberangkatan.</li>
+                                                  <li><span class="text-danger">50%</span> bila pembatalan 7 minggu
+                                                       sebelum keberangkatan.</li>
+                                                  <li><span class="text-danger">75%</span> bila pembatalan 6 minggu
+                                                       sebelum keberangkatan.</li>
+                                                  <li><span class="text-danger">100%</span> bila pembatalan 5 minggu
+                                                       sebelum keberangkatan.</li>
+                                             </ol>
+                                             <span class="text-success" style="font-weight: bold;">
+                                                  catatan : biaya pembatalan diperhitungkan dari harga paket yang
+                                                  tertera di brosur
+                                             </span>
+                                        </div>
+                                   </div>
+                                   <div class="card shadow col-lg-5 col-xl-5 col-md-12 col-sm-12 p-4 m-1"
+                                        style="border-left: 3px solid green;">
+                                        <div class="text-center mt-2 mb-2">
+                                             <h5>KETERANGAN</h5>
+                                             <hr>
+                                        </div>
+                                        <div class="mt-2">
+                                             <ol>
+                                                  <li>perlengkapan umroh terdiri dari traveling bag, buku manasik.
+                                                       <ul>
+                                                            <li><b>Jama'ah Pria</b> : kain ihram + ikat pinggang, bahan
+                                                                 batik</li>
+                                                            <li><b>Jama'ah Wanita</b> : mukena dan berga berbahan batik
+                                                            </li>
+                                                       </ul>
+                                                  </li>
+                                                  <li>booking seat Rp. 10,000,000,-</li>
+                                                  <li>penyerahan dokumen lengkap paling lambat 2 bulan, sebelum
+                                                       keberangkatan.</li>
+                                                  <li>pelunasan pembayaran dilakukan 2 bulan sebelum keberangkatan.</li>
+                                                  <li>untuk informasi harga paket umroh dan keterangan lebih lanjut.
+                                                       <ul>
+                                                            <li>hubungi : ibu nia noviani</li>
+                                                       </ul>
+                                                  </li>
+                                             </ol>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </section>
+          </section>
 
           <!-- ======= Our Clients Section ======= -->
           <section id="clients">
@@ -386,7 +574,8 @@
                               <div class="contact-address">
                                    <i class="bi bi-geo-alt"></i>
                                    <h3>Address</h3>
-                                   <address>A108 Adam Street, NY 535022, USA</address>
+                                   <address>Jalan Prof Dr Hamka no 61, Simpang GIA, Kelurahan, Parupuk Tabing, Kec. Koto
+                                        Tangah, Kota Padang, Sumatera Barat 25171</address>
                               </div>
                          </div>
 
@@ -394,7 +583,7 @@
                               <div class="contact-phone">
                                    <i class="bi bi-phone"></i>
                                    <h3>Phone Number</h3>
-                                   <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
+                                   <p><a href="tel:+155895548855">085265227475</a></p>
                               </div>
                          </div>
 
@@ -451,10 +640,9 @@
 
                          <div class="col-lg-4 col-md-4 footer-info">
                               <h4>PT. AL BADRIYAH WISATA</h4>
-                              <p>Alamat : Vinilon Building Lt.2,</p>
-                              <p>Jalan Raden Saleh No. 13-17, Cikini -Jakarta Pusat</p>
-                              <p>Telp. : 021 – 29619715, 29619716, 29619717</p>
-                              <p>Fax : 021- 29619718</p>
+                              <p>Alamat : Jalan Prof Dr Hamka no 61, Simpang GIA, Kelurahan, Parupuk Tabing, Kec. Koto
+                                   Tangah, Kota Padang, Sumatera Barat 25171</p>
+                              <p>Telp. : 085265227475</p>
                               <p>Email : <a href="mailto:albadarwisata@gmail.com">albadarwisata@gmail.com</a></p>
                          </div>
                          <div class="col-lg-4 col-md-4 footer-info">
